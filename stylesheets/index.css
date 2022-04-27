@@ -581,11 +581,11 @@ footer{
 footer p{
     color: #fff;
     text-align: center;
-    margin: 15px auto 0 auto;
+    margin: 15px auto 80px auto;
 }
 
 footer div p{
-    margin: 48px 85px;
+    margin: 20px 85px;
     float: center;
 }
 

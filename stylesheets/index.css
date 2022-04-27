@@ -359,7 +359,7 @@ footer div i{
         display: flex;
         flex-direction: row;
         width: 100vw;
-        height: 100vh;
+        height: 140vh;
         margin-top: -600px;
         /* align-items: flex-; */
     }
@@ -400,7 +400,7 @@ footer div i{
     width: 70%;
     padding: 0;
     margin-left: 0;
-    height: 450px;
+    height: 800px;
     margin-top: 100px;
     overflow: hidden;
 }
@@ -585,7 +585,7 @@ footer p{
 }
 
 footer div p{
-    margin: 20px 85px;
+    margin: 20px 15px;
     float: center;
 }
 

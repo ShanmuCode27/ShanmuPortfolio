@@ -1,0 +1,153 @@
+body{
+    background-image: linear-gradient(-170deg, aqua, rgb(149, 238, 238),rgb(55, 142, 192));
+    overflow-x: hidden;
+}
+
+#about-container #banner{
+    width: 100%;
+}
+
+#about-container #banner img{
+    width: 100%;
+    height: 250px;
+    transform: rotate(-5deg);
+    margin-bottom: 75px;
+}
+
+#about-container #basic-details{
+    font-family: 'Josefin Sans', sans-serifs;
+    font-weight: 600;
+}
+
+#about-container #basic-details h5{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #810a0a;
+    margin: 20px 0;
+
+}
+
+#about-container #basic-details .detail-set{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about-container #basic-details .detail-set img{
+    width:70px;
+    height: 70px;
+    /* margin: 20px 0; */
+
+}
+
+#ousl-logo{
+    width: 300px !important;
+}
+
+
+#about-container #basic-details .detail-set p{
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.skill-set{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+}
+
+.skill-item{
+    padding: 20px;
+}
+
+.skill-item p{
+    line-height: 50px;
+}
+
+
+.detail-set h5{
+    animation: entry 3s;
+}
+
+@keyframes entry {
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:0px;
+    }
+}
+
+.detail-set img, .detail-set p{
+    animation: in-entry 3s;
+}
+
+@keyframes in-entry {
+    0%{
+        margin-right: -500px;
+    }
+    100%{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 360px) {
+    
+    body{
+        background-image: linear-gradient(-170deg, aqua, rgb(149, 238, 238),rgb(55, 142, 192));
+        margin-left: 250px;
+    }
+
+    #about-container{
+        margin-left: 0px;
+    }
+
+    #about-container #banner{
+        position: absolute;
+        margin-top: -350px;
+        width: 60%;
+        height: 30%;
+        overflow: hidden;
+        margin-left: 40%;
+    }
+    #banner img{
+        height: 100px !important;
+        width: 100px;
+
+    }
+
+    #about-container #basic-details h5{
+        font-size: 1rem;
+        text-align: center;
+        color: #810a0a;
+        margin: 20px 0;   
+    }
+
+    #about-container #basic-details .detail-set img{
+        width:70px;
+        height: 70px;
+        /* margin: 20px 0; */
+    
+    }
+    
+    #ousl-logo{
+        width: 200px !important;
+    }
+    
+    
+    #about-container #basic-details .detail-set p{
+        font-size: 1rem;
+        margin: 10px 20px;
+    }
+
+
+    
+.skill-set{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-evenly;
+}
+
+}

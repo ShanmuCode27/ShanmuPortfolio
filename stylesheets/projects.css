@@ -1,0 +1,142 @@
+body{
+    background-image: linear-gradient(-170deg, #3062ad,rgb(144, 131, 201));
+    overflow-x: hidden;
+}
+
+#project-container{
+    width: 100%;
+}
+
+#project-heading{
+    background-color: rgb(196, 203, 255);
+    border-bottom:solid #000 5px ;
+}
+#project-heading h2{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 30px 0;
+}
+
+#projects-grid{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding: 100px 0;
+    transform: scale(1);
+}
+
+#projects-grid .item{
+    height: 40vh;
+    margin-top: 25px;
+    overflow-y:hidden;
+}
+
+#projects-grid .item a{
+    text-decoration: none;
+}
+
+
+
+#projects-grid .item .text{
+    position: relative;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-shadow: #000 1px 1px 5px;
+    background-color: rgb(73, 53, 53);
+    padding: 20px;
+}
+
+
+#projects-grid .item img{
+    width: 300px;
+    height: 310px;
+    margin-top: -40px;
+
+}
+
+#projects-grid .item:hover{
+    
+    transform: scale(1.08);
+    transition: transform .6s ease-in-out;
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 360px) {
+    
+    body{
+        margin-left: 120px;
+    }
+   
+    #project-heading{
+        margin-top: 50px;
+        background-color: rgb(196, 203, 255);
+        border-bottom:solid #000 5px ;
+    }
+    #project-heading h2{
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        padding: 30px 0;
+    }
+
+#projects-grid{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    padding: 100px 0;
+    transform: scale(1);
+    margin-bottom: 300px;
+}
+
+#projects-grid .item{
+    height: 40vh;
+    margin-top: 25px;
+    overflow-y:hidden;
+}
+
+#projects-grid .item a{
+    text-decoration: none;
+}
+
+
+
+#projects-grid .item .text{
+    position: relative;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-shadow: #000 1px 1px 5px;
+    background-color: rgb(73, 53, 53);
+    padding: 20px;
+}
+
+
+#projects-grid .item img{
+    width: 100%;
+    height: 310px;
+    margin-top: -40px;
+
+}
+
+#projects-grid .item:hover{
+    
+    transform: scale(1.08);
+    transition: transform .6s ease-in-out;
+}
+
+}

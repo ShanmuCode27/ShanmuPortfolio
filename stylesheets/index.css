@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Inter:wght@300&family=Josefin+Sans:wght@300&family=Poppins:wght@300&family=Square+Peg&family=Tangerine:wght@700&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    /* background-color: rgb(27, 145, 218); */
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(16, 59, 77); */
+    background-image: linear-gradient(25deg, rgb(21, 109, 163), rgb(97, 188, 216));
+}
+
+header nav {
+    display: flex;
+    width: 100vw;
+    background-color: #0f3f88;
+    border-bottom: 1px solid rgb(33, 25, 134);
+}
+
+header nav ul {
+    list-style-type: none;
+
+}
+header nav ul a{
+    text-decoration: none;
+}
+
+/* header nav ul a:active{
+    text-shadow: #b9a00e 2px 2px 10px;
+    background-color: yellowgreen;
+} */
+
+ header nav ul li {
+    font-family: 'Tapestry', cursive;
+    color: white;
+    font-size: 1rem;
+    padding: 30px 45px;
+
+}
+
+
+header nav #left-nav {
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    margin-left: 60px;
+}
+
+ header nav #right-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90%;
+    float: right
+}
+
+#intro-home {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 90vh;
+    /* align-items: flex-; */
+}
+
+ header nav ul li:hover {
+    background-color: #929aa5;
+    padding: 30px 60px;
+    transition: all 0.5s ease;
+}
+
+#intro-home #pro-image {
+    width: 30%;
+}
+
+#intro-home #pro-image img {
+    margin: 100px 50px;
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+}
+
+#intro-home #hi-section {
+    position: relative;
+    width: 50%;
+    padding: 120px 70px;
+    margin-left: 100px;
+}
+
+#intro-home #hi-section h3 {
+    font-size: 4rem;
+    font-family: 'Square Peg', cursive;
+    padding-bottom: 20px;
+}
+
+
+#intro-home #hi-section h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(228, 216, 216);
+    text-shadow: rgb(9, 7, 7) 0px 0px 2px;
+    padding-left: 50px;
+
+}
+
+#intro-home #hi-section h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 7rem;
+    color: #fff;
+    text-shadow: #92A0A5 0px 0px 20px;
+    padding-left: 50px;
+
+}
+
+#intro-home #hi-section p {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-shadow: rgb(210, 228, 228) 0px 0px 5px;
+    font-size: 1.2rem;
+    padding-left: 60px;
+}
+
+.typing-container {
+    padding-left: 200px !important;
+}
+
+
+#sentence {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#input-cursor {
+    color: white;
+}
+
+#feature-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#parts-section {
+    width: 100%;
+}
+
+#parts-grid {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+#parts-grid div {
+    text-align: center;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+
+#parts-grid div img {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-left: -20px;
+    transition: height .3s ease, width .2s  ease-in;
+    opacity: 0;
+
+}
+
+/* #parts-grid div div {
+    display: inline-flex;
+    z-index: 1;
+    font-size: 2rem;
+    opacity: 1;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: auto;
+    font-family: 'Dosis', sans-serif;
+    background-color: #92A0A5;
+
+    position: absolute;
+    display: flex;
+    height: 10vh;
+    width:16.8rem;
+    border: solid #000 2px;
+    background-color: #929aa5;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: auto;
+    z-index: 1;
+    opacity: 0.5;
+    transition: height .3s ease-in;
+    opacity: 0;
+
+
+        box-shadow: outset 200px 100px 200px 0 #54b3d6;
+        color: #54b3d6;
+        margin: -0.25rem 0;
+        padding: .25rem 0;
+        transition: color .3s ease-in-out, box-shadow .3s ease;
+} */
+
+#parts-grid div img:hover{
+
+        /* box-shadow: inset 100px 0 0 0 #54b3d6;
+        color: white;
+        height: 300px;
+        width: 70vw; */
+        height: 300px;
+        width: 290px;
+        opacity: 1;
+        z-index: 10;
+
+      
+}
+
+/* #parts-grid div p {
+    font-family: 'Dosis', sans-serif;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+} */
+
+#grid-textLinkedin, #grid-textGit, #grid-textHr, #grid-textProject, #grid-textAbout, #grid-textBlog{
+    font-family: 'Dosis', sans-serif;
+    background-color: none;
+    color:  rgb(255, 246, 246);
+    position: absolute;
+    padding: 10px 80px;
+    z-index: 1;
+    font-size: 2rem;
+}
+
+#grid-textAbout{
+    padding: 10px 20px;
+}
+
+#parts-text {
+    padding: 50px;
+    margin-top: 150px;
+}
+
+#parts-text div p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+#parts-text div h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+#parts-text div button{
+    width: 300px;
+    padding: 10px 50px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    background-color: #0f3f88;
+    color: #fff;
+    border: solid 2px rgb(81, 127, 193);
+    margin: 20px 40%;
+}
+
+#parts-text div button:hover{
+    background-color: rgb(13, 143, 108);
+    padding: 10px 50px;
+    border: 2px solid #000;
+    transition: padding .2s ease-in;
+}
+
+footer{
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(42, 45, 56);
+    margin-top: 100px;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin: 15px auto 0 auto;
+}
+
+footer div p{
+    margin: 48px 85px;
+    float: center;
+}
+
+footer div i{
+    color: #fff;
+    position: absolute;
+    padding: 50px 650px;
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 360px) {
+    html,body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    header nav{
+        width: 40vw;
+        height:90vh;
+        border: solid #fff 0.5px;
+        border-radius: 0 0 15px 0;
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        font-size: 1rem;
+        padding: -5x 5px;
+
+    }
+
+
+
+    header nav #left-nav {
+        display: flex;
+        justify-content: flex-start;
+        float: left;
+        margin-left: 0px;
+    }
+
+    header nav #right-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        float: center;
+    }
+
+    #intro-home {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 90vh;
+        margin-top:-600px;
+        /* align-items: flex-; */
+    }
+    
+     header nav ul li:hover {
+        background-color: #929aa5;
+        padding: -5px 8px;
+        transition: all 0.5s ease;
+    }
+
+    #intro-home {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 70%;
+        margin-left: 40%;
+        overflow: hidden;
+
+        /* align-items: flex-; */
+    }
+    
+
+    
+#intro-home #pro-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+#intro-home #pro-image img {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+}
+
+#intro-home #hi-section {
+    position: relative;
+    width: 70%;
+    padding: 0;
+    margin-left: 0;
+    height: 400px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+#intro-home #hi-section h3 {
+    font-size: 3rem;
+    padding-left: 40px;
+}
+
+
+
+
+
+#intro-home #hi-section h4 {
+    padding-left: 56px;
+    font-size: 1rem;
+
+}
+
+#intro-home #hi-section h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: #92A0A5 0px 0px 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+
+#intro-home #hi-section p {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-shadow: rgb(210, 228, 228) 0px 0px 5px;
+    font-size: 1rem;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+
+.typing-container {
+    padding-left: 20px !important;
+    overflow: hidden    ;
+}
+
+
+#sentence {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#input-cursor {
+    color: white;
+}
+
+#feature-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 5px 5px;
+}
+
+
+
+
+#parts-section {
+    width: 100%;
+}
+
+#parts-grid {
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content:center;
+    align-items: center;
+    row-gap: 40px;
+    column-gap: 30px;
+}
+
+#parts-grid div {
+    text-align: center;
+    height: 200px;
+    overflow: hidden;
+    padding: 0;
+
+}
+
+
+
+
+#parts-grid div img {
+    height: 100%;
+    width: 400px;
+    background-size: contain;
+    /* margin-left: 20px; */
+    transition: height .3s ease, width .2s  ease-in;
+    opacity: 0;
+
+}
+
+
+
+#parts-grid div img:hover{
+
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    z-index: 10;
+
+  
+}
+
+
+
+
+#grid-textLinkedin, #grid-textGit, #grid-textHr, #grid-textProject, #grid-textAbout, #grid-textBlog{
+    font-family: 'Dosis', sans-serif;
+    background-color: none;
+    color:  rgb(255, 246, 246);
+    position: absolute;
+    padding: 10px 2px;
+    z-index: 1;
+    font-size: 1rem;
+}
+
+#grid-textAbout{
+    padding: 10px 20px;
+}
+
+
+
+#parts-text {
+    padding: 50px;
+    margin-top: 50px;
+}
+
+#parts-text div p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+#parts-text div h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+
+#parts-text div button{
+    width: 200px;
+    padding: 10px 50px;
+    font-size: 1rem;
+    border-radius: 15px;
+    background-color: #0f3f88;
+    color: #fff;
+    border: solid 2px rgb(81, 127, 193);
+    margin: 20px 10%;
+}
+
+#parts-text div button:hover{
+    background-color: rgb(13, 143, 108);
+    padding: 10px 50px;
+    border: 2px solid #000;
+    transition: padding .2s ease-in;
+}
+
+footer{
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(42, 45, 56);
+    margin-top: 100px;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin: 15px auto 0 auto;
+}
+
+footer div p{
+    margin: 48px 85px;
+    float: center;
+}
+
+footer div i{
+    color: #fff;
+    position: absolute;
+    padding: 50px 650px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 400px){
+    #intro-home {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 70%;
+        margin-left: 40%;
+        overflow: hidden;
+        margin-top: -800px;
+
+        /* align-items: flex-; */
+    }
+}

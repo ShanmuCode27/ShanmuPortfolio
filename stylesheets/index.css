@@ -359,7 +359,7 @@ footer div i{
         display: flex;
         flex-direction: row;
         width: 100vw;
-        height: 90vh;
+        height: 100vh;
         margin-top: -560px;
         /* align-items: flex-; */
     }

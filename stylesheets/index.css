@@ -281,6 +281,11 @@ header nav #left-nav {
     margin: 20px 40%;
 }
 
+#parts-text div button a{
+text-decoration: none;
+color: #fff;
+}
+
 #parts-text div button:hover{
     background-color: rgb(13, 143, 108);
     padding: 10px 50px;

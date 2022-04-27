@@ -471,7 +471,7 @@ footer div i{
 
 #parts-grid {
     width: 100%;
-    margin: 20px auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content:center;

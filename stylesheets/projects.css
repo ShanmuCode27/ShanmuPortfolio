@@ -1,7 +1,6 @@
 body{
     background-image: linear-gradient(-170deg, #3062ad,rgb(144, 131, 201));
-    overflow-x: hidden;
-}
+    overflow-x: hidden;}
 
 #project-container{
     width: 100%;
@@ -72,9 +71,7 @@ body{
 
 @media only screen and (max-width: 900px) and (min-width: 360px) {
     
-    body{
-        margin-left: 120px;
-    }
+
    
     #project-heading{
         margin-top: 50px;

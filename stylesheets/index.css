@@ -360,7 +360,7 @@ footer div i{
         flex-direction: row;
         width: 100vw;
         height: 90vh;
-        margin-top: -400px;
+        margin-top: -560px;
         /* align-items: flex-; */
     }
     
@@ -398,8 +398,8 @@ footer div i{
     width: 70%;
     padding: 0;
     margin-left: 0;
-    height: 400px;
-    margin-top: -100px;
+    height: 450px;
+    margin-top: 00px;
     overflow: hidden;
 }
 

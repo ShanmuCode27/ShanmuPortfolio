@@ -384,6 +384,7 @@ footer div i{
     
 #intro-home #pro-image {
     width: 100%;
+    height: 250px;
     overflow: hidden;
     padding: 20px 0;
 }

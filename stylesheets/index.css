@@ -360,7 +360,7 @@ footer div i{
         flex-direction: row;
         width: 100vw;
         height: 100vh;
-        margin-top: -560px;
+        margin-top: -600px;
         /* align-items: flex-; */
     }
     
@@ -385,6 +385,7 @@ footer div i{
 #intro-home #pro-image {
     width: 100%;
     overflow: hidden;
+    padding: 20px 0;
 }
 
 #intro-home #pro-image img {

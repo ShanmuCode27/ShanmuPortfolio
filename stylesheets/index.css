@@ -15,7 +15,9 @@ body {
     width: 100%;
     height: 100%;
     /* background-color: rgb(16, 59, 77); */
-    background-image: linear-gradient(25deg, rgb(21, 109, 163), rgb(97, 188, 216));
+    /* background-image: linear-gradient(25deg, rgb(21, 109, 163), rgb(97, 188, 216)); */
+    background-color: rgb(97,188,216);
+    /* background-color: #2B252B; */
 }
 
 header nav {
@@ -23,6 +25,7 @@ header nav {
     width: 100vw;
     background-color: #0f3f88;
     border-bottom: 1px solid rgb(33, 25, 134);
+    /* background-color: #1A0919; */
 }
 
 header nav ul {

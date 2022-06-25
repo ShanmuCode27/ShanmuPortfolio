@@ -1,9 +1,12 @@
 const carouselText = [
     {text: "Vue Js", color: "#64FB3D"},
-    {text: "Figma", color: "#F178F4"},
-    {text: "MySQL", color: "#CFEBF7"},
+    {text: "Figma", color: "#f98bfc"},
+    {text: "SQL", color: "#CFEBF7"},
     {text:"JavaScript", color: "#F9EB25"},
-    {text: "Python", color: "#FAB37B"}
+    {text: "Python", color: "#FAB37B"},
+    {text: "PHP", color: "#74eb34"},
+    {text: "Java", color: "#ff4a74"},
+    {text: "OOP", color: "#f77b1b"}
   ]
   
   $( document ).ready(async function() {

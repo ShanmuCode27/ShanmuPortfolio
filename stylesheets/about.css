@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(-170deg, aqua, rgb(149, 238, 238),rgb(55, 142, 192));
+    /* background-image: linear-gradient(-170deg, aqua, rgb(149, 238, 238),rgb(55, 142, 192)); */
+    background-image: linear-gradient(10deg, #888, #555);
     overflow-x: hidden;
 }
 
@@ -17,12 +18,13 @@ body{
 #about-container #basic-details{
     font-family: 'Josefin Sans', sans-serifs;
     font-weight: 600;
+
 }
 
 #about-container #basic-details h5{
     font-size: 1.5rem;
     text-align: center;
-    color: #810a0a;
+    color: #f9b8ea;
     margin: 20px 0;
 
 }
@@ -50,6 +52,7 @@ body{
 #about-container #basic-details .detail-set p{
     font-size: 1.1rem;
     margin: 10px 0;
+    color: #eee;
 }
 
 .skill-set{
@@ -64,6 +67,8 @@ body{
 
 .skill-item p{
     line-height: 50px;
+    color: #eee;
+    
 }
 
 

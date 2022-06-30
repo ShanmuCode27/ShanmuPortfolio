@@ -16,16 +16,17 @@ body {
     height: 100%;
     /* background-color: rgb(16, 59, 77); */
     /* background-image: linear-gradient(25deg, rgb(21, 109, 163), rgb(97, 188, 216)); */
-    background-color: rgb(97,188,216);
+    /* background-color: rgb(97,188,216); */
+    background-color: #555;
     /* background-color: #2B252B; */
 }
 
 header nav {
     display: flex;
     width: 100vw;
-    background-color: #0f3f88;
+    /* background-color: #0f3f88; */
     border-bottom: 1px solid rgb(33, 25, 134);
-    /* background-color: #1A0919; */
+    background-color: #1A0919;
 }
 
 header nav ul {
@@ -89,6 +90,46 @@ header nav #left-nav {
     height: 400px;
     margin-left: 150px;
     clip-path: circle(35%);
+    animation: img-animation 3s infinite alternate ease;
+    animation-timing-function: linear;
+}
+
+@keyframes img-animation{
+    0%{
+        clip-path: ellipse(35% 30% at 50% 50%);
+    }
+    10%{
+        clip-path: ellipse(35% 30% at 50% 50%);
+    }
+    20%{
+        clip-path: ellipse(30% 30% at 50% 50%);
+    }
+    30%{
+        clip-path: ellipse(20% 30% at 50% 50%);
+    }
+    40%{
+        clip-path: ellipse(10% 30% at 50% 50%);
+    }
+    50%{
+        clip-path: ellipse(0% 30% at 50% 50%);
+        border: solide 10px #000;
+    }
+    60%{
+        clip-path: ellipse(10% 30% at 50% 50%);
+    }
+    70%{
+        clip-path: ellipse(20% 30% at 50% 50%);
+    }
+    80%{
+        clip-path: ellipse(25% 30% at 50% 50%);
+    }
+    90%{
+        clip-path: ellipse(35% 30% at 50% 50%);
+    }
+    100%{
+        clip-path: ellipse(40% 30% at 50% 50%);
+    }
+    
 }
 
 #intro-home #hi-section {
@@ -102,6 +143,7 @@ header nav #left-nav {
     font-size: 4rem;
     font-family: 'Square Peg', cursive;
     padding-bottom: 20px;
+    color:rgb(172, 145, 145);
 }
 
 
@@ -125,8 +167,8 @@ header nav #left-nav {
 
 #intro-home #hi-section p {
     font-family: 'Poppins', sans-serif;
-    color: #000000;
-    text-shadow: rgb(210, 228, 228) 0px 0px 5px;
+    color: #9cc5c5;
+    text-shadow: rgb(0,0,0) 0px 0px 5px;
     font-size: 1.2rem;
     padding-left: 60px;
 }
@@ -140,6 +182,7 @@ header nav #left-nav {
     font-family: 'Dosis', sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
+    color:rgb(228, 168, 174);
 }
 
 #input-cursor {
@@ -219,7 +262,7 @@ header nav #left-nav {
         transition: color .3s ease-in-out, box-shadow .3s ease;
 } */
 
-#parts-grid div img:hover{
+#parts-grid div img:hover, #parts-grid div p:hover{
 
         /* box-shadow: inset 100px 0 0 0 #54b3d6;
         color: white;
@@ -258,6 +301,7 @@ header nav #left-nav {
 #parts-text {
     padding: 50px;
     margin-top: 150px;
+    color:rgb(217, 217, 217);
 }
 
 #parts-text div p{
